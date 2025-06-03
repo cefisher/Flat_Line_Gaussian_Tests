@@ -11,7 +11,7 @@ This code is developed using Python 3 and requires the following packages:
 - matplotlib
 
 ## Setting up 
-In the ```setup.py``` file, you need to give the code the data file, which includes the wavelength, transit depth, and error bars for the planet's spectrum. The file should be in the same format as in BeAR retrievals (https://newstrangeworlds.github.io/BeAR/sections/observations.html#input-file-structure).
+In the ```setup.py``` file, you need to give the code the data file, which includes the wavelength, transit depth, and error bars for the planet's spectrum. The file should be in the same [format as in BeAR retrievals](https://newstrangeworlds.github.io/BeAR/sections/observations.html#input-file-structure).
 ```
 # load data. Assumes datafile is in the format for BeAR retrievals. #
 datafile = 'example/WASP-15b_G395H.dat'
